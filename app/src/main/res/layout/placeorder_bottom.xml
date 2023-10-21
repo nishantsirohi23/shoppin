@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/sheet">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:id="@+id/delname"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Full Address"
+            android:id="@+id/deladdress"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Area Pincode"
+            android:id="@+id/pincode"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm and PlaceOrder"
+            android:id="@+id/placeorderbtn"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</LinearLayout>

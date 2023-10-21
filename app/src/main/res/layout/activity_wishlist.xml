@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="to.nishant.shoppin.Wishlist">
+
+    <Button
+        android:id="@+id/getimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chose image" />
+
+    <Button
+        android:id="@+id/uploadimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:text="upload Product" />
+
+    <ImageView
+        android:id="@+id/productimageupload"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+    <EditText
+        android:id="@+id/productname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productimageupload"
+        android:hint="product name" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="product price"
+        android:layout_below="@id/productname"
+        android:id="@+id/productprice"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="product description"
+        android:layout_below="@id/productprice"
+        android:id="@+id/productdescription"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="product discount"
+        android:layout_below="@id/productdescription"
+        android:id="@+id/productdiscount"/>
+
+    <EditText
+        android:id="@+id/producttype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productdiscount"
+        android:hint="product type" />
+    <EditText
+        android:id="@+id/productclass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/producttype"
+        android:hint="product class" />
+    <EditText
+        android:id="@+id/productcompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productclass"
+        android:hint="product company" />
+
+
+</RelativeLayout>
